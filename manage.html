@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Trinity Panel</title>
+</head>
+<body>
+    <nav>
+        <span>Trinity Panel</span>
+    </nav>
+    <sidenav>
+        <h3>Jump to section</h3>
+        <a href="#general">General</a><br>
+        <a href="#moderation">Moderation</a><br>
+        <a href="#welcome">Welcomer</a><br>
+        <a href="#fun">Fun</a><br>
+        <a href="#music">Music</a><br>
+        <h3>Change server</h3>
+        <a href="#">Konomi</a><br>
+        <a href="#">Konomi Bots</a><br>
+        <a href="#">Trinity</a><br>
+        <a href="#">This is a long server name that could potentially make things look weird</a><br>
+        <a href="#">Another server name here</a><br>
+    </sidenav>
+    <main>
+        <h1>Configure Trinity in <u>My Discord Server</u></h1>
+        <a name="general"></a>
+        <h2>General</h2>
+        <h3>Send help command in DM</h3>
+        <input type="checkbox" id="id-name--1" name="pm-help" class="switch-input" checked>
+	    <label for="id-name--1" class="switch-label"><span class="toggle--on">Send in direct message</span><span class="toggle--off">Send in chat</span></label>
+        <h3>Disable basic commands</h3>
+        <div class="helper">ping, info, stats<br></div>
+        <input type="checkbox" id="id-name--2" name="basic-cmds" class="switch-input">
+	    <label for="id-name--2" class="switch-label"><span class="toggle--on">Basic commands disabled</span><span class="toggle--off">Basic commands enabled</span></label>
+        <div class="group">
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Command Prefix</label>
+        </div>
+        <span class="helper">Current &ndash; //<br>Default &ndash; *</span>
+    </main>
+</body>
+</html>
